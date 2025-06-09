@@ -7,3 +7,10 @@ function laCajaDePandora(numero) {
     return numero.toString(16);
   }
 }
+function debora() {
+  return {
+    nombre: "debora",
+    edad: 37,
+    nacionalidad: "Argentina"
+  };
+}
