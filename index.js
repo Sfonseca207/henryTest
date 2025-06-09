@@ -4,13 +4,13 @@ function laCajaDePandora(numero) {
     return numero.toString(2);
   } else {
     // Es impar: lo convertimos a hexadecimal
-    return numero.toString(16);
+    return numero.toString(12);
   }
 }
 function debora() {
   return {
-    nombre: "debora",
-    edad: 37,
+    nombre: "Alexis",
+    edad: 28,
     nacionalidad: "Argentina"
   };
 }
