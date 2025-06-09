@@ -7,6 +7,18 @@ function laCajaDePandora(numero) {
     return numero.toString(16);
   }
 }
+
+
+
+function Persona(){
+    const persona={
+        Nombre:"Russ",
+        edad:"25",
+        Nacionalidad:"Paraguaya"
+    }
+}
+
+=======
 function debora() {
   return {
     nombre: "debora",
@@ -14,3 +26,4 @@ function debora() {
     nacionalidad: "Argentina"
   };
 }
+
