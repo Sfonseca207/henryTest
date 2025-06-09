@@ -11,3 +11,11 @@ function laCajaDePandora(numero) {
     return numero.toString(16);
   }
 }
+
+function macarena() {
+  return {
+    nombre: "Macarena",
+    edad: 25,
+    nacionalidad: "Argentina"
+  };
+}
