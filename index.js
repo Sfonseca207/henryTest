@@ -35,4 +35,4 @@ console.log(laCajaDePandora(15));
 El objetivo es que cada uno resuelva el ejercicio a su modo, para luego resolver los conflictos.
 Luego de terminar la función deben pushear los cambios. */
 
-// oscar cambio
+// oscar 
