@@ -1,3 +1,9 @@
-function laCajaDePandora(numero){
-  // proximamente escribiremos codigo aqui
+function laCajaDePandora(numero) {
+  if (numero % 2 === 0) {
+    // Es par: lo convertimos a binario
+    return numero.toString(2);
+  } else {
+    // Es impar: lo convertimos a hexadecimal
+    return numero.toString(16);
+  }
 }
