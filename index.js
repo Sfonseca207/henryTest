@@ -9,11 +9,21 @@ function laCajaDePandora(numero) {
 }
 
 
+
 function Persona(){
     const persona={
         Nombre:"Russ",
         edad:"25",
         Nacionalidad:"Paraguaya"
     }
+}
+
+=======
+function debora() {
+  return {
+    nombre: "debora",
+    edad: 37,
+    nacionalidad: "Argentina"
+  };
 }
 
