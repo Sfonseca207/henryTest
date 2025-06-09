@@ -16,5 +16,15 @@ function laCajaDePandora(num){
   
 }
 
-console.log(laCajaDePandora(10)); 
-console.log(laCajaDePandora(15)); 
+function SamuelFonseca(){
+
+  return {
+
+    nombre: "Samuel Fonseca",
+    edad: 18,
+    nacionalidad: "Colombiano",
+
+  }
+
+}
+
