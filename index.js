@@ -1,3 +1,4 @@
+
 function laCajaDePandora(numero){
     if (numero % 2 === 0) {
       // Es par: corvirtir a binario
@@ -6,6 +7,23 @@ function laCajaDePandora(numero){
       // Es impar: convertir a hexadecimal
       return numero.toString(16);
     }
+  }
+function laCajaDePandora(numero) {
+  if (numero % 2 === 0) {
+    // Es par: lo convertimos a binario
+    return numero.toString(2);
+  } else {
+    // Es impar: lo convertimos a hexadecimal
+    return numero.toString(16);
+  }
+}
+
+function debora() {
+  return {
+    nombre: "debora",
+    edad: 37,
+    nacionalidad: "Argentina"
+  };
 }
 
 console.log(laCajaDePandora(10));
@@ -17,12 +35,3 @@ console.log(laCajaDePandora(15));
 El objetivo es que cada uno resuelva el ejercicio a su modo, para luego resolver los conflictos.
 Luego de terminar la función deben pushear los cambios. */
 
-function oscar() {
-  return {
-    nombre: "Oscar",
-    edad: 31,
-    nacionalidad: "Colombia"
-  };
-};
-
-console.log(oscar);
