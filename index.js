@@ -8,6 +8,7 @@ function laCajaDePandora(numero) {
     return numero.toString(2);
   } else {
     // Número impar: convertir a hexadecimal
+    // Numero
     return numero.toString(16);
   }
 }
