@@ -18,6 +18,18 @@ function laCajaDePandora(numero) {
   }
 }
 
+
+
+
+function Persona(){
+    const persona={
+        Nombre:"Russ",
+        edad:"25",
+        Nacionalidad:"Paraguaya"
+    }
+}
+
+
 function debora() {
   return {
     nombre: "debora",
@@ -25,6 +37,7 @@ function debora() {
     nacionalidad: "Argentina"
   };
 }
+
 
 console.log(laCajaDePandora(10));
 console.log(laCajaDePandora(7));
@@ -35,4 +48,4 @@ console.log(laCajaDePandora(15));
 El objetivo es que cada uno resuelva el ejercicio a su modo, para luego resolver los conflictos.
 Luego de terminar la función deben pushear los cambios. */
 
-// oscar 
+
